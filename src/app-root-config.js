@@ -14,7 +14,12 @@ const applications = constructApplications({
   },
 });
 
-console.log(applications);
+// registerApplication(
+//   "@app/react",
+//   () => System.import("@app/react"),
+//   (location) => true
+// );
+
 
 const layoutEngine = constructLayoutEngine({ routes, applications });
 
